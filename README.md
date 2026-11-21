@@ -3,10 +3,10 @@
 
 Criei este portfólio para demonstrar um pouco da minha evolução com o desenvolvimento web, unindo meus estudos em backend e cursos focados em front-end.
 
-🔗 **[Acesse meu Portfólio online](https://github.io)**
+🔗 **[Acesse meu Portfólio](https://github.io)**
 
 
-🔗 **[Acesse meu Portfólio](https://jpmenezesdev.github.io)**
+
 
 ### 🚀 Site desenvolvido com:
 * **HTML**
