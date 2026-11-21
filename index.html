@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#10141A">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>João Paulo Menezes Teixeira Lima | Dados, Web e IA</title>
+<meta name="description" content="Portfólio de desenvolvedor: MySQL, Python/Django, Power BI, HTML/CSS/JS e projetos com IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap in">
+    <a class="logo" href="#topo" id="topo">João Paulo Lima</a>
+    <nav aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#skills">Skills</a>
+      <a href="#projetos">Projetos</a>
+      <a class="cta" href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+<div class="wrap">
+
+  <main>
+    <div class="hero">
+      <div>
+        <div class="who"><img id="avatar" alt=""><div><b>João Paulo Menezes</b><span>Dados, web e IA</span></div></div>
+        <h1>Eu transformo dados e ideias em sistemas que funcionam.</h1>
+        <p class="lead">Trabalho com bancos de dados MySQL, relatórios em Power BI e Excel, sites em HTML, CSS e JavaScript, aplicações em Python/Django e projetos criados com ajuda de IA.</p>
+        <div class="btns">
+          <a class="btn wa" href="#contato" data-wa>Chamar no WhatsApp</a>
+          <a class="btn" href="#projetos">Ver projetos</a>
+          <a class="btn" href="https://www.linkedin.com/in/jo%C3%A3o-paulo-845b9b276/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="query" aria-label="Resumo em formato de consulta SQL">
+<div class="bar"><i></i><i></i><i></i><span>consulta.sql</span></div>
+<span class="k">SELECT</span> nome, especialidade<br>
+<span class="k">FROM</span> pessoas<br>
+<span class="k">WHERE</span> nome = <span class="s">'João Paulo'</span>;
+        <table>
+          <tr><th>área</th><th>ferramentas</th></tr>
+          <tr><td>dados</td><td>MySQL, Excel, Power BI</td></tr>
+          <tr><td>web</td><td>HTML, CSS, JavaScript</td></tr>
+          <tr><td>backend</td><td>Python, Django</td></tr>
+          <tr><td>IA</td><td>Claude, Codex, Lovable</td></tr>
+        </table>
+        <div style="margin-top:.9rem">4 linhas retornadas <span class="cursor" aria-hidden="true"></span></div>
+      </div>
+    </div>
+
+    <section id="sobre">
+      <h2>Quem eu sou</h2>
+      <p class="sub">Desenvolvimento e dados para pequenos negócios.</p>
+      <div class="about">
+        <div>
+          <img class="foto" src="assets/foto.jpg" alt="Foto de João Paulo Menezes Teixeira Lima, de camisa branca e gravata, em frente a um telão">
+          <p>Sou apaixonado por criar soluções que resolvem problemas reais do dia a dia de pequenos negócios: organizar clientes, controlar agendas e transformar planilhas bagunçadas em informação clara.</p>
+          <p>Gosto de aprender na prática. Meus projetos pessoais estão no GitHub e dois deles já estão no ar, publicados com Lovable.</p>
+        </div>
+        <ul class="facts">
+          <li><strong>Dados</strong>Modelagem e consultas em MySQL, painéis em Power BI e análises em Excel.</li>
+          <li><strong>Desenvolvimento</strong>Front-end com HTML, CSS e JavaScript e back-end com Python e Django.</li>
+          <li><strong>IA e deploy</strong>Uso Claude, Codex e Lovable para acelerar o desenvolvimento e publicar sistemas online.</li>
+          <li><strong>Formação</strong>Graduado em Matemática pela UPE e em Desenvolvimento de Sistemas pela Estácio.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>O que eu sei fazer</h2>
+      <p class="sub">Ferramentas que uso no dia a dia. Use os filtros para ver por área.</p>
+      <div class="tabs" role="group" aria-label="Filtrar skills">
+        <button class="tab" type="button" data-f="todas" aria-pressed="true">Todas</button>
+        <button class="tab" type="button" data-f="dados" aria-pressed="false">Dados</button>
+        <button class="tab" type="button" data-f="web" aria-pressed="false">Web</button>
+        <button class="tab" type="button" data-f="python" aria-pressed="false">Python</button>
+        <button class="tab" type="button" data-f="ia" aria-pressed="false">IA e deploy</button>
+      </div>
+      <div class="skills" id="skills-grid">
+        <div class="skill" data-c="dados"><b>MySQL</b><span>Tabelas, relacionamentos e consultas</span></div>
+        <div class="skill" data-c="dados"><b>XAMPP</b><span>Ambiente local com Apache e MySQL</span></div>
+        <div class="skill" data-c="dados"><b>Excel</b><span>Fórmulas, tabelas e organização de dados</span></div>
+        <div class="skill" data-c="dados"><b>Power BI</b><span>Dashboards e relatórios visuais</span></div>
+        <div class="skill" data-c="web"><b>HTML</b><span>Estrutura semântica de páginas</span></div>
+        <div class="skill" data-c="web"><b>CSS</b><span>Layouts responsivos e estilo</span></div>
+        <div class="skill" data-c="web"><b>JavaScript</b><span>Interações e lógica no navegador</span></div>
+        <div class="skill" data-c="python"><b>Python</b><span>Scripts e automações</span></div>
+        <div class="skill" data-c="python"><b>Django</b><span>Aplicações web com banco de dados</span></div>
+        <div class="skill" data-c="ia"><b>Claude</b><span>Apoio em código, ideias e revisão</span></div>
+        <div class="skill" data-c="ia"><b>Codex</b><span>Geração e ajuste de código</span></div>
+        <div class="skill" data-c="ia"><b>Lovable</b><span>Criação de aplicações com IA</span></div>
+        <div class="skill" data-c="ia"><b>Deploy</b><span>Publicação de projetos online</span></div>
+        <div class="skill" data-c="web ia"><b>GitHub</b><span>Versionamento e portfólio de código</span></div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <p class="sub">Sistemas publicados e projetos de estudo com código no GitHub.</p>
+      <div class="projects">
+        <article class="proj">
+          <h3>Cadastro de chamadas para consultório</h3>
+          <p>Sistema para registrar e acompanhar as chamadas de clientes em um consultório, mantendo o histórico de cada contato organizado.</p>
+          <div class="tags"><span>Lovable</span><span>Deploy</span><span>IA</span></div>
+          <a class="link" href="https://voice-call-board.lovable.app" target="_blank" rel="noopener">Abrir projeto</a>
+        </article>
+        <article class="proj">
+          <h3>Agendamento para barbearia</h3>
+          <p>Aplicação para clientes marcarem horário e para a barbearia organizar a agenda do dia sem confusão.</p>
+          <div class="tags"><span>Lovable</span><span>Deploy</span><span>IA</span></div>
+          <a class="link" href="https://easy-app-layouts.lovable.app" target="_blank" rel="noopener">Abrir projeto</a>
+        </article>
+        <article class="proj">
+          <h3>Projeto Django</h3>
+          <p>Aplicação web em Python com Django, usando banco de dados e páginas dinâmicas.</p>
+          <div class="tags"><span>Python</span><span>Django</span><span>MySQL</span></div>
+          <a class="link" href="https://github.com/jpmenezesdev" target="_blank" rel="noopener">Ver no GitHub</a>
+        </article>
+        <article class="proj">
+          <h3>Projetos pessoais no GitHub</h3>
+          <p>Estudos e experimentos com HTML, CSS, JavaScript, Python e bancos de dados, todos com código aberto.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div>
+          <a class="link" href="https://github.com/jpmenezesdev" target="_blank" rel="noopener">Abrir meu GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="contact">
+        <div>
+          <h2>Vamos conversar?</h2>
+          <p>Conte rapidamente o que você precisa. Ao clicar no botão, a conversa abre no meu WhatsApp já com a sua mensagem.</p>
+        </div>
+        <div>
+          <label for="nome">Seu nome</label>
+          <input id="nome" type="text" autocomplete="name" placeholder="Como posso te chamar?">
+          <label for="msg">Mensagem</label>
+          <textarea id="msg" placeholder="Ex.: Quero um sistema de agendamento para o meu negócio."></textarea>
+          <a class="btn wa" id="waSend" href="#" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>
+        </div>
+      </div>
+    </section>
+    <section id="localizacao">
+      <h2>Localização</h2>
+      <p class="sub">Candeias, Jaboatão dos Guararapes, Pernambuco, Brasil.</p>
+      <iframe class="mapa" title="Mapa do bairro de Candeias, Jaboatão dos Guararapes, PE" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63184.26531231439!2d-34.931697!3d-8.201083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aae141c4d0e7e7%3A0xeedbf1e1a9609cac!2sCandeias%2C%20Jaboat%C3%A3o%20dos%20Guararapes%20-%20PE%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1795213742720!5m2!1spt-BR!2sus" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&query=Jaboat%C3%A3o+dos+Guararapes+PE" target="_blank" rel="noopener">Abrir no Google Maps</a>
+    </section>
+  </main>
+
+  <footer>© <span id="ano"></span> João Paulo Menezes Teixeira Lima. <a href="https://github.com/jpmenezesdev" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-845b9b276/" target="_blank" rel="noopener">LinkedIn</a></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
