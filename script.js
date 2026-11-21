@@ -37,7 +37,11 @@ tabs.forEach(function(t){
   });
 });
 
-
-var av=document.getElementById("avatar"),ft=document.querySelector(".foto");if(av&&ft){av.src=ft.src;}
+// A foto está na raiz do repositório, junto de index.html.
+var fotoUrl = new URL("foto.jpg", document.baseURI).href;
+var av = document.getElementById("avatar");
+var ft = document.querySelector(".foto");
+if (ft) ft.src = fotoUrl;
+if (av) av.src = fotoUrl;
 
 document.getElementById("ano").textContent = new Date().getFullYear();
