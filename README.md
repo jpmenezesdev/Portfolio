@@ -5,7 +5,6 @@ Criei este portfólio para demonstrar um pouco da minha evolução com o desenvo
 
 **[Acesse meu Portfólio](https://jpmenezesdev.github.io/Portfolio/)**
 
-🔗 **Acesse meu Portfólio (https://jpmenezesdev.github.io/Portfolio/)**
 
 
 
