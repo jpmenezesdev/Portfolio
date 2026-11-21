@@ -1,14 +1,12 @@
-# Portfolio
-Portfólio
-Criei este portfólio para demonstrar um pouco da minha evolução com o desenvolvimento backend.
-e faço alguns cursos focados no desenvolvimento front-end.
-Acesse meu Portfólio
-Site desenvolvido com:
 
+# Portfólio
 
-HTML
+Criei este portfólio para demonstrar um pouco da minha evolução com o desenvolvimento web, unindo meus estudos em backend e cursos focados em front-end.
 
-CSS
+🔗 **[Acesse meu Portfólio online](https://github.io)**
 
+### 🚀 Site desenvolvido com:
+* **HTML**
+* **CSS**
+* **JavaScript**
 
-JAVASCRIPT
